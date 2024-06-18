@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.botones{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#DEL{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#AC{
+  background-color: brown;
+}
+ul {
+  list-style: none;
+}
+.display{
+  height: 100px;
+  overflow-y: scroll;
+  
+}
+.valor{
+  border: 1px #646cff solid;
+  border-radius: 8px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
